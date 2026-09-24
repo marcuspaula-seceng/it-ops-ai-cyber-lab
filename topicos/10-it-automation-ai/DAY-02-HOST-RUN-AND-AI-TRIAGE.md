@@ -14,7 +14,7 @@ nomes de serviços de fornecedor. Nada instalado; nada saiu da máquina.
 
 | Check | # | O que era |
 |---|---|---|
-| `ServicePathRisk` | 5 | 3 × Microsoft Defender em `C:\ProgramData\Microsoft\…` ("fora das raízes") · 2 × serviços Ubisoft com **caminho sem aspas e espaços** (T1574.009) |
+| `ServicePathRisk` | 5 | 3 × Microsoft Defender em `C:\ProgramData\Microsoft\…` ("fora das raízes") · 2 × serviços de um fornecedor de software de terceiros com **caminho sem aspas e espaços** (T1574.009) |
 | `LocalAdminInventory` | 1 | a conta do próprio utilizador em Administrators — esperado num PC pessoal |
 | `ScheduledTaskRisk` | 0 | nenhuma tarefa SYSTEM persistente fora de `\Microsoft\` |
 
@@ -25,7 +25,7 @@ nomes de serviços de fornecedor. Nada instalado; nada saiu da máquina.
    que esconde. Em vez disso, o módulo passou a anexar **`Get-AuthenticodeSignature`**
    (só leitura): `Signature=Valid · Signer=CN=Microsoft Windows Publisher`. O achado fica,
    a evidência decide, o humano lê. Sem ficheiro → `Unknown`, não `ok`.
-2. **Os dois Ubisoft são reais.** Assinados (`CN=UBISOFT ENTERTAINMENT INC.`) — e mesmo
+2. **Os dois serviços de terceiros são reais.** Assinados (certificado válido do fornecedor) — e mesmo
    assim caminho sem aspas com espaços é o T1574.009 de manual. Assinatura válida não
    corrige configuração. **Nenhuma acção foi tomada**: reportar não é corrigir (RUNBOOK).
 3. **`-WhatIf` provado:** `Invoke-WinOpsAudit -OutFile x -WhatIf` imprime o *What if* e

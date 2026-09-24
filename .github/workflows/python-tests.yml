@@ -1,0 +1,21 @@
+name: python-tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: asset audit
+        run: python -m unittest discover -s topicos/12-it-ops-ai-cyber/12-asset-audit -v
+      - name: mdm compliance
+        run: python -m unittest discover -s topicos/12-it-ops-ai-cyber/14-mdm-mobile -v
+      - name: meeting rooms
+        run: python -m unittest discover -s topicos/12-it-ops-ai-cyber/15-meeting-rooms -v
+      # PowerShell suites use Pester 3.4.0 syntax (the version on the lab host) and are run locally only.
