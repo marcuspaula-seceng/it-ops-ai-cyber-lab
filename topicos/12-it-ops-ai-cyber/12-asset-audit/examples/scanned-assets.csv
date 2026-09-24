@@ -1,0 +1,12 @@
+asset_tag,scanned_by,scan_point
+SAMPLE-0001,scanner-a,stock_room
+SAMPLE-0002,scanner-a,stock_room
+SAMPLE-0003,scanner-a,stock_room
+SAMPLE-0003,scanner-b,stock_room
+SAMPLE-0004,scanner-a,stock_room
+SAMPLE-0005,scanner-a,stock_room
+SAMPLE-0006,scanner-b,stock_room
+SAMPLE-0008,scanner-b,stock_room
+SAMPLE-0009,scanner-b,stock_room
+SAMPLE-0010,scanner-a,stock_room
+SAMPLE-9001,scanner-b,stock_room

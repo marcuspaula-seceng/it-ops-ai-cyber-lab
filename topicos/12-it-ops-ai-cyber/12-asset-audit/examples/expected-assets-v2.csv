@@ -1,0 +1,12 @@
+asset_tag,device_type,status
+SAMPLE-0001,laptop,in_stock
+SAMPLE-0002,laptop,in_stock
+SAMPLE-0003,desktop,in_stock
+SAMPLE-0004,monitor,in_stock
+SAMPLE-0005,monitor,in_stock
+SAMPLE-0006,laptop,assigned
+SAMPLE-0007,phone,assigned
+SAMPLE-0008,laptop,returned
+SAMPLE-0009,monitor,returned
+SAMPLE-0010,laptop,in_stock
+SAMPLE-0011,dock,in_stock

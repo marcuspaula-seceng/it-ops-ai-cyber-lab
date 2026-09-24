@@ -1,0 +1,20 @@
+room,result,platform,notes
+Room-01,pass,lark,All checks passed
+Room-02,pass,zoom,All checks passed
+Room-03,warning,lark,Intermittent wireless screen sharing
+Room-04,pass,zoom,All checks passed
+Room-05,pass,lark,All checks passed
+Room-06,fail,zoom,Display no signal over HDMI
+Room-07,pass,lark,All checks passed
+Room-08,pass,zoom,All checks passed
+Room-09,warning,lark,Microphone level low
+Room-10,pass,zoom,All checks passed
+Room-11,pass,lark,All checks passed
+Room-12,pass,zoom,All checks passed
+Room-13,pass,lark,All checks passed
+Room-14,warning,zoom,Camera framing needs adjustment
+Room-15,pass,lark,All checks passed
+Room-16,pass,zoom,All checks passed
+Room-17,fail,lark,Room controller unresponsive
+Room-18,pass,zoom,All checks passed
+Room-19,pass,lark,All checks passed

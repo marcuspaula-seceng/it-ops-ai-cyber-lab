@@ -1,0 +1,11 @@
+asset_tag,device_type,status
+SAMPLE-0001,laptop,in_stock
+SAMPLE-0002,laptop,in_stock
+SAMPLE-0003,desktop,in_stock
+SAMPLE-0004,monitor,in_stock
+SAMPLE-0005,monitor,in_stock
+SAMPLE-0006,docking_station,in_stock
+SAMPLE-0007,laptop,in_stock
+SAMPLE-0008,desktop,in_stock
+SAMPLE-0009,monitor,in_stock
+SAMPLE-0010,headset,in_stock
